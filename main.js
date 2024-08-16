@@ -1,5 +1,5 @@
-// import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.js';
-// import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.152.1/examples/jsm/controls/OrbitControls.js';   
+import * as THREE from "three";  // Use the key "three" from the import map
+import { OrbitControls } from "three/addons/controls/OrbitControls.js"; // Use the key "three/addons/"
 
 
 //scene
