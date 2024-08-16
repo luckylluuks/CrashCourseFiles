@@ -9,12 +9,26 @@
         canvas { display: block; }
     </style>
     <link rel="stylesheet" href="style.css">
+
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.167.1/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@<version>/examples/jsm/"
+          }
+        }
+      </script>
+
 </head>
 <body>
     <!-- Include Three.js from a CDN always in front of the script that is using it -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.152.1/build/three.module.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.152.1/examples/jsm/controls/OrbitControls.js"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script> -->
     <!-- Include the external JavaScript file -->
      <canvas class="webgl"></canvas>
     <script src="main.js" type="module"></script>
+
 </body>
 </html>

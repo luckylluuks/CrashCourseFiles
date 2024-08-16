@@ -1,6 +1,6 @@
 // import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.js';
 
-import { OrbitControls } from 'https://unpkg.com/three@0.128.0/examples/jsm/controls/OrbitControls.js';
+// import { OrbitControls } from 'https://unpkg.com/three@0.128.0/examples/jsm/controls/OrbitControls.js';
 
 
 //scene
@@ -50,7 +50,7 @@ window.addEventListener('resize', () => {
 
 //controls
 const controls = new OrbitControls(camera, canvas);
-
+// const controls = new OrbitControls(camera, renderer.domElement);
 
 
 // Animation loop
