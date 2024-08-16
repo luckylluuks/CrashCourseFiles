@@ -1,7 +1,5 @@
 import * as THREE from "three";  // Use the key "three" from the import map
 import { OrbitControls } from "three/addons/controls/OrbitControls.js"; // Use the key "three/addons/"
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-
 
 //scene
 const scene = new THREE.Scene();
@@ -49,8 +47,7 @@ window.addEventListener('resize', () => {
 })
 
 //controls
-const controls = new OrbitControls(camera, canvas);
-// const controls = new OrbitControls(camera, renderer.domElement);
+const controls = new OrbitControls( camera, renderer.domElement, scene );
 
 
 // Animation loop
