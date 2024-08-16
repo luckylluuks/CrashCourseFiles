@@ -49,3 +49,4 @@ const loop = () => {
     renderer.render(scene, camera);
     window.requestAnimationFrame(loop);
 }
+loop()
