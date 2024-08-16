@@ -46,6 +46,7 @@ window.addEventListener('resize', () => {
 })
 
 const loop = () => {
+    mesh.position.x += 0.01;
     renderer.render(scene, camera);
     window.requestAnimationFrame(loop);
 }
