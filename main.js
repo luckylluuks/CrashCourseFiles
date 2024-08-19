@@ -1,6 +1,5 @@
 import * as THREE from 'three';
-import { OrbitControls } from 'OrbitControls'; // Assuming you saved it in the same directory
-import { GLTFLoader } from 'GLTFLoader';  // Assuming you saved it in the same directory
+
 
 //scene
 const scene = new THREE.Scene();
