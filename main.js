@@ -1,5 +1,7 @@
-import * as THREE from "three";  // Use the key "three" from the import map
-import { OrbitControls } from "three/addons/controls/OrbitControls.js"; // Use the key "three/addons/"
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+
 
 //scene
 const scene = new THREE.Scene();
